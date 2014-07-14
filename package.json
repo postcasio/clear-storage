@@ -1,0 +1,14 @@
+{
+  "name": "clear-storage",
+  "main": "./lib/clear-storage",
+  "version": "0.0.0",
+  "description": "Nuke your `~/.atom/storage` directory with a command.",
+  "activationEvents": ["clear-storage:clear"],
+  "repository": "https://github.com/postcasio/clear-storage",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
