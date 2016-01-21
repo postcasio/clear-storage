@@ -14,7 +14,8 @@ unlinkFiles = (dir) ->
 
 module.exports =
 	activate: (state) ->
-		atom.workspaceView.command "clear-storage:clear", ->
-			unlinkFiles atom.constructor.getStorageDirPath()
+		atom.commands.add 'atom-workspace',
+			'clear-storage:clear': ->
+					unlinkFiles atom.constructor.getStorageDirPath()
 
 	deactivate: ->

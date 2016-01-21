@@ -9,7 +9,7 @@
   "repository": "https://github.com/postcasio/clear-storage",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.0.0"
   },
   "dependencies": {}
 }
